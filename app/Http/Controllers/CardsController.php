@@ -21,7 +21,7 @@ class CardsController extends Controller
      
      public function show(Card $card)
     {
-// 
+         //return $card->notes[0]->user->username;
         return view('cards.show', compact('card'));
     }
 
